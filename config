@@ -1,0 +1,9 @@
+[core]
+	symlinks = false
+	repositoryformatversion = 0
+	filemode = false
+	bare = true
+	logallrefupdates = false
+［user］
+ email＝460301044@163.com
+ name＝chnuser

@@ -1,7 +1,11 @@
-
+#函数f(x)=x2
 def f(x):
     return x * x
 l = [1, 2, 3, 4, 5, 6]
 r = map(f, l)
 
+print(list(r))
+
+#将list所有数字转为字符串
+r = map(str,l)
 print(list(r))

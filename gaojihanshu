@@ -1,7 +1,7 @@
 #函数f(x)=x2
 def f(x):
     return x * x
-l = [1, 2, 3, 4, 5, 6]
+l = [1, 2, 3]
 r = map(f, l)
 
 print(list(r))
@@ -9,3 +9,15 @@ print(list(r))
 #将list所有数字转为字符串
 r = map(str,l)
 print(list(r))
+
+from functools import reduce
+def add(x, y):
+    return x + y
+
+r = reduce(add,l)
+
+print(r)
+#与上方同样的效果
+r = sum(l)
+print(r)
+
